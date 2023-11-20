@@ -1,0 +1,11 @@
+@mixin mediaQuery($width: $break-sm) {
+    @media screen and (min-width: $width) {
+      @content;
+    }
+}
+// header-wrapper
+@mixin centerAll() {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
